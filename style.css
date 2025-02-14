@@ -132,9 +132,9 @@ nav button {
 .first {
     display: flex;
     justify-content: center;
-    max-width: 70vw;
+    max-width: 70;
     margin: auto;
-    color: white;
+    color: rgb(240, 234, 234);
     justify-content: center;
     align-items: center;
 }
@@ -230,7 +230,7 @@ footer .questions {
 
 @media screen and (max-width: 1300px) {
 
-    nav{
+    nav {
         max-width: 90vw;
     }
 
@@ -276,7 +276,7 @@ footer .questions {
         padding: 75px 0;
     }
 
-    .footer-item{
+    .footer-item {
         align-items: center;
     }
 
@@ -304,3 +304,5 @@ footer .questions {
     display: flex;
     flex-direction: column;
     gap: 23px;
+
+    
